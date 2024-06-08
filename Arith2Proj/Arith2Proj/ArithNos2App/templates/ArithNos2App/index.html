@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Input Form</title>
+  </head>
+  <body>
+    <form method="post">
+      {% csrf_token %}
+      <label for="user_input1">Enter Input of 1st number:</label><br />
+      <input type="text" id="user_input1" name="user_input1" /><br />
+      <label for="user_input2"></label><br />
+      <label for="user_input2">Enter Input of 2nd number:</label><br />
+      <input type="text" id="user_input2" name="user_input2" /><br />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
