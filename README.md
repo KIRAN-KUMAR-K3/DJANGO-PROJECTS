@@ -1,6 +1,6 @@
 # Django Projects
 
-This repository contains a collection of Django projects developed by [Your Name].
+This repository contains a collection of Django projects developed by [KIRAN KUMAR K].
 
 ## Projects Included:
 
