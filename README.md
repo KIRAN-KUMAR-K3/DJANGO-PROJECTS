@@ -8,7 +8,7 @@ This repository contains a collection of Django projects developed by [KIRAN KUM
    - [[Link to Project 1](https://github.com/KIRAN-KUMAR-K3/DJANGO-PROJECTS/tree/main/Arith2Proj/Arith2Proj)]
 
 2. **Project 2**: [DateTime-project-in-pattern]
-   - [[Link to Project 2](https://github.com/KIRAN-KUMAR-K3/DJANGO-PROJECTS/tree/main/DatetimePatternProj/DatetimePatternProj)]
+   - [[Link to Project 2](https://jubilant-space-happiness-pxx7ggg6gw637gj4-8000.app.github.dev/)]
 
 3. **Project 3**: [Printing an text words]
    - [[Link to Project 3](https://github.com/KIRAN-KUMAR-K3/DJANGO-PROJECTS/tree/main/HelloProject/Helloproject)]
