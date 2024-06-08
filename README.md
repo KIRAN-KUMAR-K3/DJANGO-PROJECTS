@@ -14,7 +14,7 @@ This repository contains a collection of Django projects developed by [KIRAN KUM
    - [[Link to Project 3](https://github.com/KIRAN-KUMAR-K3/DJANGO-PROJECTS/tree/main/HelloProject/Helloproject)]
 
 4. **Project 3**: [curent-date-time-project]
-   - [[Link to Project 4](https://github.com/KIRAN-KUMAR-K3/DJANGO-PROJECTS/tree/main/datetimeproject/datetimeproject)]
+   - [[Link to Project 4](https://curly-enigma-xjjr9994xjxf65rj-8052.app.github.dev/)]
 
 
 ## Getting Started
