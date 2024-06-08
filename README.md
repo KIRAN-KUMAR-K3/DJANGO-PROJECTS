@@ -5,7 +5,7 @@ This repository contains a collection of Django projects developed by [KIRAN KUM
 ## Projects Included:
 
 1. **Project 1**: [Airthmetic-operation]
-   - [[Link to Project 1](https://github.com/KIRAN-KUMAR-K3/DJANGO-PROJECTS/tree/main/Arith2Proj/Arith2Proj)]
+   - [[Link to Project 1](https://curly-enigma-xjjr9994xjxf65rj-8000.app.github.dev/)]
 
 2. **Project 2**: [DateTime-project-in-pattern]
    - [[Link to Project 2](https://jubilant-space-happiness-pxx7ggg6gw637gj4-8000.app.github.dev/)]
