@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prime Numbers Result</title>
+</head>
+<body>
+    <h2>Prime Numbers up to {{ number }}</h2>
+        {% for prime in primes %}
+        {{ prime }}
+        {% endfor %}
+    <a href="{% url 'prime_numbers' %}">Generate Prime Numbers Again</a>
+</body>
+</html>

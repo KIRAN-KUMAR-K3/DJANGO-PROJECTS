@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Number Checker</title>
+</head>
+<body>
+<h1>Number Checker</h1>
+<form method="post">
+{% csrf_token %}
+{{ form.as_p }}
+<button type="submit">Check</button>
+</form>
+{% if result %}
+<h2>Results:</h2>
+<ul>
+{% if 'is_prime' in result %}
+<li>Prime: {{ result.is_prime }}</li>
+{% endif %}
+{% if 'is_even' in result %}
+<li>Even: {{ result.is_even }}</li>
+{% endif %}
+{% if 'is_odd' in result %}
+<li>Odd: {{ result.is_odd }}</li>
+{% endif %}
+{% if 'is_perfect_square' in result %}
+<li>Perfect Square: {{ result.is_perfect_square }}</li>
+{% endif %}
+</ul>
+{% endif %}
+</body>
+</html>
