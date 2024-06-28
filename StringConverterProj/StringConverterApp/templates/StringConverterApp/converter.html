@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>String Converter</title>
+</head>
+<body>
+<h1>String Converter</h1>
+<form method="post">
+{% csrf_token %}
+{{ form.as_p }}
+<button type="submit">Convert</button>
+<button type="button" onclick="window.location.href='/quit'">Quit</button>
+</form>
+{% if result is not None %}
+<h2>Result: {{ result }}</h2>
+{% endif %}
+</body>
+</html>

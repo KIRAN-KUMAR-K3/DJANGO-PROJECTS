@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+<h1>Append and Read Text File</h1>
+<form method="post" action="/read_text/">
+{% csrf_token %}
+<textarea name="content" rows="10" cols="30"></textarea><br>
+<button type="submit">Submit</button>
+</form>
+<h2>File Content:</h2>
+<pre id="file-content"></pre>
+<script>
+// Fetch the file content when the page loads
+fetch('/read_text/')
+.then(response => response.text())
+.then(data => document.getElementById('file-content').textContent = data)
+.catch(error => console.error('Error:', error));
+</script>
+</body>
+</html>

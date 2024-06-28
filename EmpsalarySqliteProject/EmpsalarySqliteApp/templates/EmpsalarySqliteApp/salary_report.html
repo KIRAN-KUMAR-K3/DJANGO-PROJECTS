@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Salary Report</title>
+</head>
+<body>
+<h1>Salary Report</h1>
+<table border="1">
+<tr>
+<th>Employee Number</th>
+<th>Employee Name</th>
+<th>Basic Salary</th>
+<th>DA</th>
+<th>HRA</th>
+<th>MA</th>
+<th>Gross Salary</th>
+</tr>
+{% for emp in report %}
+<tr>
+<td>{{ emp.empno }}</td>
+<td>{{ emp.empname }}</td>
+<td>{{ emp.basic_salary }}</td>
+<td>{{ emp.da }}</td>
+<td>{{ emp.hra }}</td>
+<td>{{ emp.ma }}</td>
+<td>{{ emp.gross_salary }}</td>
+</tr>
+{% endfor %}
+</table>
+</body>
+</html>
