@@ -15,41 +15,18 @@ Welcome to the **DJANGO-PROJECTS** repository! This repository hosts a collectio
 
 ## Projects
 
-### 1. Arith2Proj
-A Django project demonstrating basic arithmetic operations.
-
-### 2. CalculatorProj
-A calculator application built with Django.
-
-### 3. DatetimePatternProj
-A project to display various datetime patterns using Django.
-
-### 4. EmpsalarySqliteProject
-A project to manage employee salary data using SQLite and Django.
-
-### 5. HelloProject
-A basic Django project to get started with "Hello, World!" functionality.
-
-### 6. ModelFormProj
-A project demonstrating the use of Django Model Forms.
-
-### 7. NumberCheckerProject
-A Django project to check if a number meets certain criteria.
-
-### 8. PrimenoProj
-A project to determine prime numbers using Django.
-
-### 9. StringConverterProj
-A Django project to convert strings in various ways.
-
-### 10. TextfileReaderProj
-A project to read and display text file content using Django.
-
-### 11. datetimeproject
-Another project dealing with datetime functionalities in Django.
-
-### 12. myproject
-A custom project demonstrating various Django features.
+- **Arith2Proj**: Basic arithmetic operations.
+- **CalculatorProj**: A simple calculator application.
+- **DatetimePatternProj**: Display various datetime patterns.
+- **EmpsalarySqliteProject**: Manage employee salary data using SQLite.
+- **HelloProject**: "Hello, World!" starter project.
+- **ModelFormProj**: Demonstrate the use of Django Model Forms.
+- **NumberCheckerProject**: Check if a number meets certain criteria.
+- **PrimenoProj**: Determine prime numbers.
+- **StringConverterProj**: Convert strings in various ways.
+- **TextfileReaderProj**: Read and display text file content.
+- **datetimeproject**: Additional datetime functionalities.
+- **myproject**: Custom project demonstrating various features.
 
 ## Getting Started
 
