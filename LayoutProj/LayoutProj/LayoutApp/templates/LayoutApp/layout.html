@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}PageTurner Books{% endblock %}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: powderblue;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: darkblue;
+            color: white;
+            padding: 1rem;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 1rem;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        main {
+            flex: 1;
+            padding: 2rem;
+        }
+        footer {
+            background-color: darkblue;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PageTurner Books</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About Us</a></li>
+                <li><a href="/contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+    <footer>
+        <p>&copy; 2024 PageTurner Books. All rights reserved.</p>
+        <p>Developed by John Doe</p>
+    </footer>
+</body>
+</html>
