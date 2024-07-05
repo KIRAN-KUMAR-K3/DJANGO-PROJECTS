@@ -19,7 +19,10 @@ Welcome to the **DJANGO-PROJECTS** repository! This repository hosts a collectio
 - **CalculatorProj**: A simple calculator application.
 - **DatetimePatternProj**: Display various datetime patterns.
 - **EmpsalarySqliteProject**: Manage employee salary data using SQLite.
+- **FeedbackProj**: Collect and manage user feedback.
 - **HelloProject**: "Hello, World!" starter project.
+- **InheritanceProj**: Demonstrate inheritance concepts in Django.
+- **LayoutProj**: Layout and design templates for Django projects.
 - **ModelFormProj**: Demonstrate the use of Django Model Forms.
 - **NumberCheckerProject**: Check if a number meets certain criteria.
 - **PrimenoProj**: Determine prime numbers.
@@ -27,6 +30,7 @@ Welcome to the **DJANGO-PROJECTS** repository! This repository hosts a collectio
 - **TextfileReaderProj**: Read and display text file content.
 - **datetimeproject**: Additional datetime functionalities.
 - **myproject**: Custom project demonstrating various features.
+- **order_notice**: Manage and display order notices.
 
 ## Getting Started
 
