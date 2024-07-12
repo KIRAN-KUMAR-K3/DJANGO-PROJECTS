@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Sitemaps</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            font-size: 2em;
+            font-weight: bold;
+        }
+        p {
+            font-size: 1.2em;
+            color: blue;
+        }
+        nav a {
+            margin-right: 10px;
+            color: blue;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>About Sitemaps</h1>
+    <p>A sitemap is an XML file that lists the URLs for a site.</p>
+    <p>Sitemap framework A sitemap is an XML file on your Web site that tells search engine indexers how frequently your pages change and how “important” certain pages are in relation to other pages on your site. This information helps search engines index your site A sitemap in Django is a way to provide information about the pages, their relative importance, and how frequently they are updated on your website. It helps search engines like Google to crawl your site more efficiently.</p>
+    <nav>
+        <a href="{% url 'index' %}">Home</a>
+        <a href="{% url 'about' %}">About</a>
+        <a href="{% url 'contact' %}">Contact</a>
+    </nav>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>RSS Feed Reader</title>
+   <style>
+       .feed {
+           margin-bottom: 30px;
+           border-bottom: 1px solid #ccc;
+           padding-bottom: 20px;
+       }
+   </style>
+</head>
+<body>
+   <h1>RSS Feed Reader</h1>
+   {% for feed in feeds %}
+       <div class="feed">
+           <h2>{{ feed.feed_title }}</h2>
+           <p>Last updated: {{ feed.last_updated }}</p>
+           <ul>
+           {% for entry in feed.feed_entries %}
+               <li>
+                   <h3><a href="{{ entry.link }}" target="_blank">{{ entry.title }}</a></h3>
+                   <p>{{ entry.summary|safe|truncatewords:30 }}</p>
+                   <small>Published: {{ entry.published }}</small>
+               </li>
+           {% endfor %}
+           </ul>
+       </div>
+   {% endfor %}
+</body>
+</html>
