@@ -24,13 +24,16 @@ Welcome to the **DJANGO-PROJECTS** repository! This repository hosts a collectio
 - **InheritanceProj**: Demonstrate inheritance concepts in Django.
 - **LayoutProj**: Layout and design templates for Django projects.
 - **ModelFormProj**: Demonstrate the use of Django Model Forms.
+- **Non_Html_Responses**: Handle non-HTML responses.
 - **NumberCheckerProject**: Check if a number meets certain criteria.
 - **PrimenoProj**: Determine prime numbers.
+- **SiteMap_Explainer**: Explain site maps.
 - **StringConverterProj**: Convert strings in various ways.
 - **TextfileReaderProj**: Read and display text file content.
 - **datetimeproject**: Additional datetime functionalities.
 - **myproject**: Custom project demonstrating various features.
 - **order_notice**: Manage and display order notices.
+- **rss_reader**: Read RSS feeds.
 
 ## Getting Started
 
